@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>韩七华 - 个人主页</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #6e6e73;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.quote {
+    font-size: 22px;
+    margin-top: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>韩七华</h1>
+    <div class="subtitle">教师 · 60岁</div>
+
+    <div class="card">
+        <div>👨‍🏫 职业：教师</div>
+        <div>🎂 年龄：60岁</div>
+        <div>🍵 兴趣：喝茶</div>
+
+        <!-- 把下面这行图片路径改成你的图片文件名 -->
+        <img src="your-image.jpg" alt="课堂照片">
+    </div>
+
+    <div class="card">
+        <div class="quote">“来龙中不听老师的课等于白来”</div>
+    </div>
+</div>
+
+</body>
+</html>
